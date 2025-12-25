@@ -24,9 +24,8 @@ age --version
 sops --version
 ```
 
-<img width="577" height="164" alt="Frame 1" src="https://github.com/user-attach
+<img width="577" height="164" alt="Frame 1" src="https://github.com/user-attachments/assets/0d93f42b-6f5a-4987-851d-f43f277f8a10" />
 <img width="1073" height="170" alt="Frame 2" src="https://github.com/user-attachments/assets/0f005308-65c7-46b4-bdb0-e9142ed6e71a" />
-ments/assets/1b2fefbc-de70-4792-a917-58e44a01644b" />
 
 ## 4. Генерация ключей Age
 
