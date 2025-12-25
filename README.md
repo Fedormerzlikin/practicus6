@@ -23,9 +23,10 @@
 age --version
 sops --version
 ```
-<img width="352" height="90" alt="image" src="https://github.com/user-attachments/assets/354615be-764e-41c6-9bb5-2290cf43cbd7" />
-<img width="577" height="97" alt="image" src="https://github.com/user-attachments/assets/9746328f-acef-4717-a31e-c8566c593a3a" />
 
+<img width="577" height="164" alt="Frame 1" src="https://github.com/user-attach
+<img width="1073" height="170" alt="Frame 2" src="https://github.com/user-attachments/assets/0f005308-65c7-46b4-bdb0-e9142ed6e71a" />
+ments/assets/1b2fefbc-de70-4792-a917-58e44a01644b" />
 
 ## 4. Генерация ключей Age
 
@@ -34,7 +35,8 @@ sops --version
 ```
 age-keygen -o keys.txt
 ```
-<img width="904" height="73" alt="image" src="https://github.com/user-attachments/assets/3f03e4d7-60e9-4509-813b-cf184c626674" />
+
+<img width="903" height="73" alt="Frame 3" src="https://github.com/user-attachments/assets/5c3c16ad-44b3-47b1-8e41-c30edac77ef3" />
 
 
 В результате был создан файл `keys.txt`, содержащий приватный ключ, а также выведен публичный ключ, который используется для шифрования данных.
@@ -64,7 +66,7 @@ data:
 ```
 sops --encrypt secrets\database.yaml > secrets\database.enc.yaml
 ```
-<img width="1450" height="646" alt="image" src="https://github.com/user-attachments/assets/e0373d27-1a1a-418d-83e7-1d63e13c4166" />
+<img width="1280" height="547" alt="image 4" src="https://github.com/user-attachments/assets/edb7cc63-1ada-4e62-b59e-2ebca1a99ce8" />
 
 
 В результате был получен зашифрованный файл `database.enc.yaml`, содержащий зашифрованные значения и служебный блок `sops`.
@@ -82,7 +84,8 @@ $env:SOPS_AGE_KEY_FILE = "$PWD\keys.txt"
 ```
 sops --decrypt secrets\database.enc.yaml
 ```
-<img width="916" height="124" alt="image" src="https://github.com/user-attachments/assets/39b593fd-2e34-4b84-8276-fc7a0b6ff83f" />
+
+<img width="1117" height="157" alt="Frame 4" src="https://github.com/user-attachments/assets/3edf1a40-8a9b-47f0-9a76-ab25a50d08d0" />
 
 
 Данные были успешно восстановлены в исходном виде.
@@ -104,7 +107,7 @@ SOPS_AGE_KEY_FILE=age.key sops secrets.enc.yaml
 позволила открыть файл в расшифрованном виде, внести изменения и автоматически сохранить его в зашифрованном состоянии.
 
 <img width="473" height="151" alt="image" src="https://github.com/user-attachments/assets/6c542519-2694-4870-aecc-5dc15f606935" />
-<img width="933" height="96" alt="image" src="https://github.com/user-attachments/assets/bc151b3f-349a-4af6-b583-eb3f650ce766" />
+<img width="1132" height="117" alt="Frame 5" src="https://github.com/user-attachments/assets/446ac30a-040b-4353-808d-99c21485d671" />
 
 ## 9. Вывод
 
